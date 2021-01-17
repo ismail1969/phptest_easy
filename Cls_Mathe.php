@@ -9,6 +9,6 @@ class Cls_Mathe
     }
 
     public static function add($zahl1, $zahl2){
-        return $zahl1+$zahl2;
+        return $zahl1+$zahl2; // change on remote
 
     }

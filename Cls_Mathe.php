@@ -7,3 +7,8 @@ class Cls_Mathe
         return $zahl*$zahl;
 
     }
+
+    public static function add($zahl1, $zahl2){
+        return $zahl1+$zahl2;
+
+    }

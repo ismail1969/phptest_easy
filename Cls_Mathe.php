@@ -12,3 +12,7 @@ class Cls_Mathe
         return $zahl1+$zahl2; // change on remote
 
     }
+    public static function sub($zahl1, $zahl2){
+        return $zahl1-$zahl2; // local
+
+    }

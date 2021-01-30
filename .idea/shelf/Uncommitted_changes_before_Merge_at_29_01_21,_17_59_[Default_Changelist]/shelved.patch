@@ -1,0 +1,205 @@
+Index: file3.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/file3.php b/file3.php
+--- a/file3.php	(revision 780f93bda9be29eec0675b8030a4518f6bf2f1e9)
++++ b/file3.php	(date 1611938259868)
+@@ -1,1 +1,3 @@
+ <?php
++
++print 'file 3.php chaanged at 21.01.2021';
+\ No newline at end of file
+Index: Cls_Mathe.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\n\n\nclass Cls_Mathe\n{\n    public static function quadrat($zahl){\n        return $zahl*$zahl;\n\n    }\n\n    public static function add($zahl1, $zahl2){\n        return $zahl1+$zahl2; // change on remote\n\n    }\n    public static function sub($zahl1, $zahl2){\n        return $zahl1-$zahl2; // local\n\n    }
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Cls_Mathe.php b/Cls_Mathe.php
+--- a/Cls_Mathe.php	(revision 780f93bda9be29eec0675b8030a4518f6bf2f1e9)
++++ b/Cls_Mathe.php	(date 1611938414853)
+@@ -3,16 +3,22 @@
+ 
+ class Cls_Mathe
+ {
+-    public static function quadrat($zahl){
+-        return $zahl*$zahl;
++    // my Mathe class
++    public static function quadrat($zahl)
++    {
++        return $zahl * $zahl;
+ 
+     }
+ 
+-    public static function add($zahl1, $zahl2){
+-        return $zahl1+$zahl2; // change on remote
++    public static function add($zahl1, $zahl2)
++    {
++        return $zahl1 + $zahl2; // change on remote
+ 
+     }
+-    public static function sub($zahl1, $zahl2){
+-        return $zahl1-$zahl2; // local
++
++    public static function sub($zahl1, $zahl2)
++    {
++        return $zahl1 - $zahl2; // local
+ 
+-    }
+\ No newline at end of file
++    }
++}
+\ No newline at end of file
+Index: file290121.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/file290121.php b/file290121.php
+new file mode 100644
+--- /dev/null	(date 1611938215058)
++++ b/file290121.php	(date 1611938215058)
+@@ -0,0 +1,3 @@
++<?php
++print 'Today is 29.01.2021 - feature/Test290121_test_me';
++print 'line after add!';
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"2b1ce1d2-075d-4030-abaf-f5cabb51cd08\" name=\"Default Changelist\" comment=\"added file3.php\">\n      <change beforePath=\"$PROJECT_DIR$/Cls_Mathe.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Cls_Mathe.php\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ComposerSettings\">\n    <execution />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1nCt0IcSZPdq12A0psS8zAsN4N4\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"2b1ce1d2-075d-4030-abaf-f5cabb51cd08\" name=\"Default Changelist\" comment=\"\" />\n      <created>1610905675267</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1610905675267</updated>\n      <workItem from=\"1610905676367\" duration=\"4121000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"testme 1\">\n      <created>1610905776551</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1610905776551</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"commit 2 - add mathe\">\n      <created>1610906797347</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1610906797347</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"added file3.php\">\n      <created>1610908058054</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1610908058054</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"4\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"testme 1\" />\n    <MESSAGE value=\"commit 2 - add mathe\" />\n    <MESSAGE value=\"added file3.php\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"added file3.php\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"93\" y=\"93\" width=\"1350\" height=\"638\" key=\"DiffContextDialog\" timestamp=\"1610912452729\">\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\n    </state>\n    <state x=\"93\" y=\"93\" width=\"1350\" height=\"638\" key=\"DiffContextDialog/0.0.1536.824@0.0.1536.824\" timestamp=\"1610912452729\" />\n    <state x=\"589\" y=\"135\" key=\"NewPhpClassDialog\" timestamp=\"1610906227447\">\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\n    </state>\n    <state x=\"589\" y=\"135\" key=\"NewPhpClassDialog/0.0.1536.824@0.0.1536.824\" timestamp=\"1610906227447\" />\n    <state x=\"604\" y=\"336\" key=\"NewPhpFileDialog\" timestamp=\"1610907898123\">\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\n    </state>\n    <state x=\"604\" y=\"336\" key=\"NewPhpFileDialog/0.0.1536.824@0.0.1536.824\" timestamp=\"1610907898123\" />\n    <state x=\"93\" y=\"93\" width=\"1350\" height=\"638\" key=\"ShowDiffWithBranchDialog\" timestamp=\"1610912452729\">\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\n    </state>\n    <state x=\"93\" y=\"93\" width=\"1350\" height=\"638\" key=\"ShowDiffWithBranchDialog/0.0.1536.824@0.0.1536.824\" timestamp=\"1610912452729\" />\n    <state x=\"361\" y=\"145\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1610910676642\">\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\n    </state>\n    <state x=\"361\" y=\"145\" key=\"Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824\" timestamp=\"1610910676642\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 780f93bda9be29eec0675b8030a4518f6bf2f1e9)
++++ b/.idea/workspace.xml	(date 1611939232999)
+@@ -11,7 +11,10 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="2b1ce1d2-075d-4030-abaf-f5cabb51cd08" name="Default Changelist" comment="added file3.php">
++      <change afterPath="$PROJECT_DIR$/file290121.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Cls_Mathe.php" beforeDir="false" afterPath="$PROJECT_DIR$/Cls_Mathe.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/file3.php" beforeDir="false" afterPath="$PROJECT_DIR$/file3.php" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -24,7 +27,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="feature/Test290121_test_me" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -36,7 +39,9 @@
+   </component>
+   <component name="PropertiesComponent">
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
++    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="nodejs_package_manager_path" value="npm" />
+     <property name="vue.rearranger.settings.migration" value="true" />
+   </component>
+@@ -49,6 +54,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1610905675267</updated>
+       <workItem from="1610905676367" duration="4121000" />
++      <workItem from="1611937814808" duration="1418000" />
+     </task>
+     <task id="LOCAL-00001" summary="testme 1">
+       <created>1610905776551</created>
+@@ -80,13 +86,56 @@
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">
+       <map>
++        <entry key="1">
++          <value>
++            <State>
++              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="HEAD" />
++                      </list>
++                    </value>
++                  </entry>
++                  <entry key="roots">
++                    <value>
++                      <list>
++                        <option value="$PROJECT_DIR$" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
+         <entry key="MAIN">
+           <value>
+-            <State />
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="feature/Test290121_test_me" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
+           </value>
+         </entry>
+       </map>
+     </option>
++    <option name="OPEN_GENERIC_TABS">
++      <map>
++        <entry key="1" value="TOOL_WINDOW" />
++      </map>
++    </option>
++    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="testme 1" />
+@@ -94,26 +143,4 @@
+     <MESSAGE value="added file3.php" />
+     <option name="LAST_COMMIT_MESSAGE" value="added file3.php" />
+   </component>
+-  <component name="WindowStateProjectService">
+-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1610912452729">
+-      <screen x="0" y="0" width="1536" height="824" />
+-    </state>
+-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1610912452729" />
+-    <state x="589" y="135" key="NewPhpClassDialog" timestamp="1610906227447">
+-      <screen x="0" y="0" width="1536" height="824" />
+-    </state>
+-    <state x="589" y="135" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1610906227447" />
+-    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1610907898123">
+-      <screen x="0" y="0" width="1536" height="824" />
+-    </state>
+-    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1610907898123" />
+-    <state x="93" y="93" width="1350" height="638" key="ShowDiffWithBranchDialog" timestamp="1610912452729">
+-      <screen x="0" y="0" width="1536" height="824" />
+-    </state>
+-    <state x="93" y="93" width="1350" height="638" key="ShowDiffWithBranchDialog/0.0.1536.824@0.0.1536.824" timestamp="1610912452729" />
+-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610910676642">
+-      <screen x="0" y="0" width="1536" height="824" />
+-    </state>
+-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610910676642" />
+-  </component>
+ </project>
+\ No newline at end of file

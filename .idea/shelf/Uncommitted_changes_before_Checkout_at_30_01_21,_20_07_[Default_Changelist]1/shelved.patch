@@ -1,0 +1,141 @@
+Index: index.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\n\n<html>\n<head>\n<meta NAME=\"author\" CONTENT=\"İsmail Özer\">\n<meta NAME=\"publisher\" CONTENT=\"İsmail Özer\">\n<meta NAME=\"copyright\" CONTENT=\"İsmail Özer\">\n<meta NAME=\"Keywords\" CONTENT=\"İsmail Özer, Ismail Özer, ismail özer, ismail oezer, ismail özer eu, ismailozer.eu, www.ismailozer.eu, ismail ozer, ismail ozer, ismailozer, Türküler, Bağlama, Serinyayla, Serinyayla Köyü, Beyiğin Köyü ,Sivas, Beyiğin\">\n<meta NAME=\"Description\" CONTENT=\"İsmail Özer Hoş Geldiniz\">\n<meta NAME=\"Abstract\" CONTENT=\"İsmail Özer Hoş Geldiniz\">\n<meta NAME=\"page-topic\" CONTENT=\"Kultur\">\n<meta NAME=\"audience\" CONTENT=\"Alle\">\n<meta NAME=\"robots\" CONTENT=\"index, follow\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n\n<title>İsmail Özer Websitesine Hoş Geldiniz</title>\n<style type=\"text/css\">\n<!--\nbody {\n    background-color: #03F;\n}\n\nh2 {\n    color: #fff;\n}\nbody,td,th {\n    font-size: 16px;\n\tcolor: #00C;\n}\n\nA:link {text-decoration: none}\nA:visited {text-decoration: none}\nA:active {text-decoration: none}\nA:hover {text-decoration: underline; color: red;}\n\n\n-->\n</style></head><body>\n<div align=\"center\">\n  <h2>İsmail Özer Websitesine Hoş Geldiniz</h2>\n    <img src=\"images/ismailozer.jpg\" height=\"500\" width=\"360\"><br>\n    <br>\n  <a href=\"turkuler\" style=\"font-weight: bolder; color: white;\">Türküler Dinlemek İçin Tıkla</a>\n\n</div>\n\n</body>\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.php b/index.php
+--- a/index.php	
++++ b/index.php	
+@@ -1,48 +1,12 @@
+ <?php
+ 
+-<html>
+-<head>
+-<meta NAME="author" CONTENT="İsmail Özer">
+-<meta NAME="publisher" CONTENT="İsmail Özer">
+-<meta NAME="copyright" CONTENT="İsmail Özer">
+-<meta NAME="Keywords" CONTENT="İsmail Özer, Ismail Özer, ismail özer, ismail oezer, ismail özer eu, ismailozer.eu, www.ismailozer.eu, ismail ozer, ismail ozer, ismailozer, Türküler, Bağlama, Serinyayla, Serinyayla Köyü, Beyiğin Köyü ,Sivas, Beyiğin">
+-<meta NAME="Description" CONTENT="İsmail Özer Hoş Geldiniz">
+-<meta NAME="Abstract" CONTENT="İsmail Özer Hoş Geldiniz">
+-<meta NAME="page-topic" CONTENT="Kultur">
+-<meta NAME="audience" CONTENT="Alle">
+-<meta NAME="robots" CONTENT="index, follow">
+-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+-
+-<title>İsmail Özer Websitesine Hoş Geldiniz</title>
+-<style type="text/css">
+-<!--
+-body {
+-    background-color: #03F;
+-}
+-
+-h2 {
+-    color: #fff;
+-}
+-body,td,th {
+-    font-size: 16px;
+-	color: #00C;
+-}
+-
+-A:link {text-decoration: none}
+-A:visited {text-decoration: none}
+-A:active {text-decoration: none}
+-A:hover {text-decoration: underline; color: red;}
++print 'hello world';
+ 
++$arr = array(
++    "one" => "bir",
++    "two" => "iki",
++);
+ 
+--->
+-</style></head><body>
+-<div align="center">
+-  <h2>İsmail Özer Websitesine Hoş Geldiniz</h2>
+-    <img src="images/ismailozer.jpg" height="500" width="360"><br>
+-    <br>
+-  <a href="turkuler" style="font-weight: bolder; color: white;">Türküler Dinlemek İçin Tıkla</a>
++$json_obj = json_encode($arr);
+ 
+-</div>
+-
+-</body>
+-</html>
+\ No newline at end of file
++print $json_obj;
+Index: remotefile290121.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><? php\nprint 'this file added on remote';\n?>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/remotefile290121.php b/remotefile290121.php
+--- a/remotefile290121.php	
++++ b/remotefile290121.php	
+@@ -1,3 +1,3 @@
+ <? php
+-print 'this file added on remote';
++print 'this file added on remote-1';
+ ?>
+Index: copy_index.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/copy_index.php b/copy_index.php
+new file mode 100644
+--- /dev/null	
++++ b/copy_index.php	
+@@ -0,0 +1,48 @@
++<?php
++
++<html>
++<head>
++<meta NAME="author" CONTENT="İsmail Özer">
++<meta NAME="publisher" CONTENT="İsmail Özer">
++<meta NAME="copyright" CONTENT="İsmail Özer">
++<meta NAME="Keywords" CONTENT="İsmail Özer, Ismail Özer, ismail özer, ismail oezer, ismail özer eu, ismailozer.eu, www.ismailozer.eu, ismail ozer, ismail ozer, ismailozer, Türküler, Bağlama, Serinyayla, Serinyayla Köyü, Beyiğin Köyü ,Sivas, Beyiğin">
++<meta NAME="Description" CONTENT="İsmail Özer Hoş Geldiniz">
++<meta NAME="Abstract" CONTENT="İsmail Özer Hoş Geldiniz">
++<meta NAME="page-topic" CONTENT="Kultur">
++<meta NAME="audience" CONTENT="Alle">
++<meta NAME="robots" CONTENT="index, follow">
++<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
++
++<title>İsmail Özer Websitesine Hoş Geldiniz</title>
++<style type="text/css">
++<!--
++body {
++    background-color: #03F;
++}
++
++h2 {
++    color: #fff;
++}
++body,td,th {
++    font-size: 16px;
++	color: #00C;
++}
++
++A:link {text-decoration: none}
++A:visited {text-decoration: none}
++A:active {text-decoration: none}
++A:hover {text-decoration: underline; color: red;}
++
++
++-->
++</style></head><body>
++<div align="center">
++  <h2>İsmail Özer Websitesine Hoş Geldiniz</h2>
++    <img src="images/ismailozer.jpg" height="500" width="360"><br>
++    <br>
++  <a href="turkuler" style="font-weight: bolder; color: white;">Türküler Dinlemek İçin Tıkla</a>
++
++</div>
++
++</body>
++</html>
+\ No newline at end of file

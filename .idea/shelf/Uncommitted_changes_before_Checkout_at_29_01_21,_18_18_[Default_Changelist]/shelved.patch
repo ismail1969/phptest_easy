@@ -1,0 +1,64 @@
+Index: file3.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\nprint 'past text until 21.09.201';\nprint 'past text from 22.09.201';
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/file3.php b/file3.php
+--- a/file3.php	(revision d7401259ed4f46164bd95c83e973015b57f8c3f4)
++++ b/file3.php	(date 1611940543189)
+@@ -1,3 +1,5 @@
+ <?php
+ print 'past text until 21.09.201';
+-print 'past text from 22.09.201';
+\ No newline at end of file
++print 'past text from 22.09.201';
++
++print 'text at 18.15';
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"2b1ce1d2-075d-4030-abaf-f5cabb51cd08\" name=\"Default Changelist\" comment=\"added file3.php\">\n      <change afterPath=\"$PROJECT_DIR$/new_local_file290121.php\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/file3.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/file3.php\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ComposerSettings\">\n    <execution />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1nCt0IcSZPdq12A0psS8zAsN4N4\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"2b1ce1d2-075d-4030-abaf-f5cabb51cd08\" name=\"Default Changelist\" comment=\"\" />\n      <created>1610905675267</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1610905675267</updated>\n      <workItem from=\"1610905676367\" duration=\"4121000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"testme 1\">\n      <created>1610905776551</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1610905776551</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"commit 2 - add mathe\">\n      <created>1610906797347</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1610906797347</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"added file3.php\">\n      <created>1610908058054</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1610908058054</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"4\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"1\">\n          <value>\n            <State />\n          </value>\n        </entry>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"testme 1\" />\n    <MESSAGE value=\"commit 2 - add mathe\" />\n    <MESSAGE value=\"added file3.php\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"added file3.php\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision d7401259ed4f46164bd95c83e973015b57f8c3f4)
++++ b/.idea/workspace.xml	(date 1611940543325)
+@@ -10,8 +10,7 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="2b1ce1d2-075d-4030-abaf-f5cabb51cd08" name="Default Changelist" comment="added file3.php">
+-      <change afterPath="$PROJECT_DIR$/new_local_file290121.php" afterDir="false" />
++    <list default="true" id="2b1ce1d2-075d-4030-abaf-f5cabb51cd08" name="Default Changelist" comment="added file3.php and new_local_file290121.php">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/file3.php" beforeDir="false" afterPath="$PROJECT_DIR$/file3.php" afterDir="false" />
+     </list>
+@@ -73,7 +72,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1610908058054</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="added file3.php and new_local_file290121.php">
++      <created>1611940168267</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1611940168267</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -100,6 +106,7 @@
+     <MESSAGE value="testme 1" />
+     <MESSAGE value="commit 2 - add mathe" />
+     <MESSAGE value="added file3.php" />
+-    <option name="LAST_COMMIT_MESSAGE" value="added file3.php" />
++    <MESSAGE value="added file3.php and new_local_file290121.php" />
++    <option name="LAST_COMMIT_MESSAGE" value="added file3.php and new_local_file290121.php" />
+   </component>
+ </project>
+\ No newline at end of file

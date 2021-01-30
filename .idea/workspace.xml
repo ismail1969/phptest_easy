@@ -10,18 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b1ce1d2-075d-4030-abaf-f5cabb51cd08" name="Default Changelist" comment="added file3.php">
-      <change afterPath="$PROJECT_DIR$/copy_index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remotefile290121.php" beforeDir="false" afterPath="$PROJECT_DIR$/remotefile290121.php" afterDir="false" />
-    </list>
+    <list default="true" id="2b1ce1d2-075d-4030-abaf-f5cabb51cd08" name="Default Changelist" comment="commit 300121" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <execution />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -40,6 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.php.quality.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -87,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610908058054</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit 300121">
+      <created>1612034720526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612034720526</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +110,14 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="88" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="109" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -114,6 +128,11 @@
     <MESSAGE value="testme 1" />
     <MESSAGE value="commit 2 - add mathe" />
     <MESSAGE value="added file3.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="added file3.php" />
+    <MESSAGE value="commit 300121" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 300121" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

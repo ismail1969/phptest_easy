@@ -25,7 +25,7 @@ h2 {
 }
 body,td,th {
     font-size: 16px;
-	color: #00C;
+	color: #00d;
 }
 
 A:link {text-decoration: none}
